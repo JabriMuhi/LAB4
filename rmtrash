@@ -35,4 +35,4 @@ fi
 ln "$file" "$tdir/$count"
 rm "$file"
 
-printf "%s %s\n" "$PWD:$count" >> $tlog
+printf "%s %s\n" "$PWD/$file" "$count" >> $tlog
